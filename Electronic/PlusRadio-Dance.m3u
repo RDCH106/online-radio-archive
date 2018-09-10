@@ -1,0 +1,11 @@
+#EXTM3U
+#EXTINF:0,(#1 - 136/2000) PulsRadio DANCE
+http://51.15.76.3:80/pulsHD.mp3
+#EXTINF:0,(#2 - 50/600) PulsRadio DANCE
+http://137.74.45.136:80/pulsHD.mp3
+#EXTINF:0,(#3 - 55/600) PulsRadio DANCE
+http://213.251.190.165:80/pulsHD.mp3
+#EXTINF:0,(#4 - 67/600) PulsRadio DANCE
+http://87.98.153.24:80/pulsHD.mp3
+#EXTINF:0,(#5 - 118/1000) PulsRadio DANCE
+http://193.200.42.211:80/pulsHD.mp3
