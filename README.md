@@ -10,5 +10,5 @@
 
 ## 🎞️ 🎮 Soundtrack
 
-- 🌟[ALL_Electronic](https://raw.githubusercontent.com/RDCH106/online-radio-archive/master/Soundtrack/ALL_Sountrack.m3u): Listen all soundtrack radios
+- 🌟[ALL_Soundtrack](https://raw.githubusercontent.com/RDCH106/online-radio-archive/master/Soundtrack/ALL_Sountrack.m3u): Listen all soundtrack radios
 - [Radio GamePlay 8 & 16 bits](https://raw.githubusercontent.com/RDCH106/online-radio-archive/master/Soundtrack/RadioGamePlay-8%2616bits.m3u) [🌐](https://www.radiogameplay.ru/)
