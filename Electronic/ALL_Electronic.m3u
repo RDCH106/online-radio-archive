@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:0,FeeverMix
+#EXTINF:-1,FeeverMix
 https://raw.githubusercontent.com/RDCH106/online-radio-archive/master/Electronic/FeeverMix.m3u
-#EXTINF:0,#1 PulsRadio DANCE
+#EXTINF:-1,#1 PulsRadio DANCE
 https://raw.githubusercontent.com/RDCH106/online-radio-archive/master/Electronic/PulsRadio-Dance.m3u
