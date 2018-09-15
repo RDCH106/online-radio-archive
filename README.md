@@ -10,7 +10,8 @@
 
 ## 🇯🇵 🎤 JPop
 - 🌟[ALL Electronic](https://raw.githubusercontent.com/RDCH106/online-radio-archive/master/JPop/ALL_JPop.m3u): Listen all JPop radios
-- [JPop ProjectRadio](https://raw.githubusercontent.com/RDCH106/online-radio-archive/master/Electronic/Jidols-ProjectRadio.m3u) [🌐](https://www.j-popprojectradio.com/)
+- [AnimeNfo](https://raw.githubusercontent.com/RDCH106/online-radio-archive/master/Electronic/AnimeNfo.m3u) [🌐](https://www.animenfo.com/)
+- [JPop ProjectRadio](https://raw.githubusercontent.com/RDCH106/online-radio-archive/master/Electronic/JIdols-ProjectRadio.m3u) [🌐](https://www.j-popprojectradio.com/)
 - [JPop ProjectRadio](https://raw.githubusercontent.com/RDCH106/online-radio-archive/master/Electronic/JPop-ProjectRadio.m3u) [🌐](https://www.j-popprojectradio.com/)
 
 
