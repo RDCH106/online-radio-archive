@@ -1,5 +1,8 @@
 # -*- coding: utf-8 -*-
 
+from os import listdir
+from os.path import isfile, join
+
 logo ="""
                        !
                        |
@@ -28,4 +31,9 @@ print(logo)
 generes = ["Electronic", "JPop", "Soundtrack"]
 repo_base_url = "https://raw.githubusercontent.com/RDCH106/online-radio-archive/master"
 
+def get_files(genere):
+    onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
 
+
+for genere in generes:
+    pass
