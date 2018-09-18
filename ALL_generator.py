@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from os import listdir, path
+import re
 
 logo ="""
                        !
@@ -34,7 +35,9 @@ repo_base_url = "https://raw.githubusercontent.com/RDCH106/online-radio-archive/
 def get_files(genre):
     pwd = path.dirname(path.abspath(__file__))
     onlyfiles = [f for f in listdir(path.join(pwd, genre)) if path.isfile(path.join(pwd, genre, f))]
-    return onlyfiles
+    all_regex = re.compile("ALL_[A-Za-z]+\.m3u")
+    filtered_files = [file for file in onlyfiles if not all_regex.match(file)]
+    return filtered_files
 
 
 for genre in genres:
