@@ -31,6 +31,22 @@ print(logo)
 genres = ["Electronic", "JPop", "Soundtrack"]
 repo_base_url = "https://raw.githubusercontent.com/RDCH106/online-radio-archive/master"
 
+"""
+    song info lines are formatted like:
+    EXTINF:419,Alice In Chains - Rotten Apple
+    length (seconds)
+    Song title
+    file name - relative or absolute path of file
+    ..\Minus The Bear - Planet of Ice\Minus The Bear_Planet of Ice_01_Burying Luck.mp3
+"""
+
+
+class Track(object):
+    def __init__(self, length, title, path):
+        self.length = length
+        self.title = title
+        self.path = path
+
 
 def get_files(genre):
     pwd = path.dirname(path.abspath(__file__))
@@ -46,5 +62,24 @@ def get_files(genre):
     return filtered_files
 
 
+def add_source(m3u_file, track):
+    prettified_title = track.title.replace("-", " ")
+    prettified_title = prettified_title.replace(".m3u", "")
+    source = "#EXTINF:" + str(track.length) + "," + prettified_title + "\n"
+    source = source + track.path + "\n"
+    m3u_file += source
+
+    return m3u_file
+
+
 for genre in genres:
-    print(get_files(genre))
+    files = get_files(genre)
+    print(files)
+
+    m3u_file = "# EXTM3U\n"
+    for file in files:
+        track = Track(-1, file, (repo_base_url + "/" + genre + "/" + file))
+        m3u_file = add_source(m3u_file, track)
+
+    print(m3u_file)
+    m3u_file = ""
