@@ -76,10 +76,13 @@ for genre in genres:
     files = get_files(genre)
     print(files)
 
-    m3u_file = "# EXTM3U\n"
+    m3u_file = "#EXTM3U\n"
     for file in files:
         track = Track(-1, file, (repo_base_url + "/" + genre + "/" + file))
         m3u_file = add_source(m3u_file, track)
 
     print(m3u_file)
+    file = open(genre + "/" + "ALL_" + genre + ".m3u", "w")
+    file.write(m3u_file)
+    file.close()
     m3u_file = ""
