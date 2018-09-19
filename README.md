@@ -9,6 +9,7 @@
 - [Feever Mix](https://raw.githubusercontent.com/RDCH106/online-radio-archive/master/Electronic/FeeverMix.m3u) [🌐](https://www.mixfeever.com/)
 - [FFH Eurondace](https://raw.githubusercontent.com/RDCH106/online-radio-archive/master/Electronic/FFH-Eurodance.m3u) [🌐](http://ffheurodance.radio.es/)
 - [PulsRadio Dance](https://raw.githubusercontent.com/RDCH106/online-radio-archive/master/Electronic/PulsRadio-Dance.m3u) [🌐](https://www.pulsradio.com/dance/)
+- [Radio Eurodance](https://raw.githubusercontent.com/RDCH106/online-radio-archive/master/Electronic/Radio-Eurodance.m3u) [🌐](https://laut.fm/eurodance)
 
 ## 🇯🇵 🎤 JPop
 - 🌟[ALL Electronic](https://raw.githubusercontent.com/RDCH106/online-radio-archive/master/JPop/ALL_JPop.m3u): Listen all JPop radios
