@@ -25,3 +25,4 @@
 - [Radio GamePlay 8 & 16 bits](https://raw.githubusercontent.com/RDCH106/online-radio-archive/master/Soundtrack/RadioGamePlay-8%2616bits.m3u) [🌐](https://www.radiogameplay.ru/)
 - [RPGN Game Radio](https://raw.githubusercontent.com/RDCH106/online-radio-archive/master/Soundtrack/RPGN-GameRadio.m3u) [🌐](http://www.rpgamers.net/radio/)
 - [SLAY Radio](https://raw.githubusercontent.com/RDCH106/online-radio-archive/master/Soundtrack/SLAY-Radio.m3u) [🌐](https://www.slayradio.org/)
+- [Tune Disney Radio](https://raw.githubusercontent.com/RDCH106/online-radio-archive/master/Soundtrack/Tune-Disney-Radio.m3u) [🌐](http://www.tunedisney.com/home.html)
