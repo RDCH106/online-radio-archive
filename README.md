@@ -20,7 +20,7 @@
 
 ## 🎞️ 🎮 Soundtrack
 
-- 🌟[ALL Soundtrack](https://raw.githubusercontent.com/RDCH106/online-radio-archive/master/Soundtrack/ALL_Sountrack.m3u): Listen all Soundtrack radios
+- 🌟[ALL Soundtrack](https://raw.githubusercontent.com/RDCH106/online-radio-archive/master/Soundtrack/ALL_Soundtrack.m3u): Listen all Soundtrack radios
 - [Final Fantasy Radio](https://raw.githubusercontent.com/RDCH106/online-radio-archive/master/Soundtrack/FinalFantasyRadio.m3u) [🌐](http://finalfantasyradio.co/)
 - [Radio GamePlay 8 & 16 bits](https://raw.githubusercontent.com/RDCH106/online-radio-archive/master/Soundtrack/RadioGamePlay-8%2616bits.m3u) [🌐](https://www.radiogameplay.ru/)
 - [RPGN Game Radio](https://raw.githubusercontent.com/RDCH106/online-radio-archive/master/Soundtrack/RPGN-GameRadio.m3u) [🌐](http://www.rpgamers.net/radio/)
