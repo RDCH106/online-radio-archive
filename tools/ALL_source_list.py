@@ -6,9 +6,6 @@ from common import logo
 
 print(logo)
 
-genres = ["Electronic", "JPop", "Soundtrack"]
-repo_base_url = "https://raw.githubusercontent.com/RDCH106/online-radio-archive/master"
-
 """
     song info lines are formatted like:
     EXTINF:419,Alice In Chains - Rotten Apple
