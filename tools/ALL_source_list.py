@@ -86,7 +86,7 @@ def parse_m3u(infile):
 
 
 def get_files(genre):
-    pwd = path.dirname(path.abspath(__file__))
+    pwd = path.join(path.dirname(path.abspath(__file__)), "../")
     onlyfiles = [f for f in listdir(path.join(pwd, genre)) if path.isfile(path.join(pwd, genre, f))]
     all_regex = re.compile("ALL_[A-Za-z]+\.m3u")
     filtered_files = [file for file in onlyfiles if not all_regex.match(file)] #List comprehension
@@ -101,7 +101,7 @@ def get_files(genre):
 
 def get_m3u_sources(genre, file):
     pwd = path.dirname(path.abspath(__file__))
-    sources = parse_m3u(path.join(pwd, genre, file))
+    sources = parse_m3u(path.join(pwd, "../", genre, file))
     return sources
 
 

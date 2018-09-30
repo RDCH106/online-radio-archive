@@ -49,7 +49,7 @@ class Track(object):
 
 
 def get_files(genre):
-    pwd = path.dirname(path.abspath(__file__))
+    pwd = path.join(path.dirname(path.abspath(__file__)), "../")
     onlyfiles = [f for f in listdir(path.join(pwd, genre)) if path.isfile(path.join(pwd, genre, f))]
     all_regex = re.compile("ALL_[A-Za-z]+\.m3u")
     filtered_files = [file for file in onlyfiles if not all_regex.match(file)] #List comprehension
@@ -79,7 +79,7 @@ for genre in genres:
         track = Track(-1, file, (repo_base_url + "/" + genre + "/" + file))
         m3u_file = add_source(m3u_file, track)
 
-    file = open(genre + "/" + "ALL_" + genre + ".m3u", "w")
+    file = open("../" + genre + "/" + "ALL_" + genre + ".m3u", "w")
     file.write(m3u_file)
     file.close()
     print("ALL_" + genre + ".m3u" + " saved!")
