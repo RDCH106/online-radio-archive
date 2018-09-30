@@ -3,25 +3,10 @@
 from os import listdir, path
 import re
 from common import logo, genres, repo_base_url
+from common import Track
 
 
 print(logo)
-
-"""
-    song info lines are formatted like:
-    EXTINF:419,Alice In Chains - Rotten Apple
-    length (seconds)
-    Song title
-    file name - relative or absolute path of file
-    ..\Minus The Bear - Planet of Ice\Minus The Bear_Planet of Ice_01_Burying Luck.mp3
-"""
-
-
-class Track(object):
-    def __init__(self, length, title, path):
-        self.length = length
-        self.title = title
-        self.path = path
 
 
 def get_files(genre):
