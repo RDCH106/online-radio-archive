@@ -2,9 +2,12 @@
 
 from common import logo, genres, repo_base_url
 from common import Track, get_files
+from metadata import Metadata
 
 
 print(logo)
+meta = Metadata()
+print("version " + meta.get_version() + "\n")
 
 
 def add_source(m3u_file, track):
