@@ -22,3 +22,6 @@ logo = """
     |_|  \__,_|\__,_|_|\___/
 
     """
+
+genres = ["Electronic", "JPop", "Soundtrack"]
+repo_base_url = "https://raw.githubusercontent.com/RDCH106/online-radio-archive/master"

@@ -2,13 +2,10 @@
 
 from os import listdir, path
 import re
-from common import logo
+from common import logo, genres, repo_base_url
 
 
 print(logo)
-
-genres = ["Electronic", "JPop", "Soundtrack"]
-repo_base_url = "https://raw.githubusercontent.com/RDCH106/online-radio-archive/master"
 
 """
     song info lines are formatted like:
