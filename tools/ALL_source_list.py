@@ -1,9 +1,8 @@
 # -*- coding: utf-8 -*-
 
-from os import listdir, path
-import re
+from os import path
 from common import logo, genres
-from common import Track, parse_m3u, get_files
+from common import parse_m3u, get_files
 
 print(logo)
 
